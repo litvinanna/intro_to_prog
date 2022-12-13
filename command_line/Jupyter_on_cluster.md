@@ -37,8 +37,12 @@ If you are asked "Are you sure you want to continue connecting (yes/no)?" type y
 
 You will be asked for a token. Copy the token from terminal and paste into the browser field. Jupyter Notebook on cluster will be launched in your browser.
 
-<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/paste_token.png' width='400px'>
+<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/paste_token.png' align='center'>
 <img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/token.png'>
+
+Nice thing about Jupyter lab is that you can Download and Upload the files from anf to cluster through the GUI in the browser:
+
+<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/upload_download.png'>
 
 <hr>
 
