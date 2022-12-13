@@ -12,13 +12,13 @@ export PATH=/opt/anaconda3/bin/:$PATH # export path not to write full path to ju
 jupyter lab --no-browser
 ```
 
-Since there is no browser on cluster we set `--no-browser`. Jupyter will be launched in a free port. In my case its 8891: 
+Since there is no browser on cluster we set `--no-browser`. Jupyter will be launched in a free port. In my case it's 8891: 
 
 <img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/port.png'>
 
 **3. Redirect the port to your browser**
 
-Open the terminal/command line on your computer (not cluster!) and run the following command:
+Open the terminal/command line on your computer **(not cluster!)** and run the following command:
 
 ```bash
 ssh -L localhost:port-for-your-browser:localhost:port-on-cluster username@10.30.194.110
@@ -36,7 +36,7 @@ If you are asked "Are you sure you want to continue connecting (yes/no)?" type y
 
 **4. Open localhost:YYYY in your browser**
 
-You will be asked for a token. Copy the token from terminal and paste into the browser field. Jupyter Notebook on cluster will be launched in your browser.
+Open localhost:YYYY in your browser (In my case it's localhost:8888). You will be asked for a token. Copy the token from terminal and paste into the browser field. Jupyter Notebook on cluster will be launched in your browser.
 
 <img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/paste_token.png' align='center'>
 <img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/token.png'>
