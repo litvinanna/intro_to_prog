@@ -1,11 +1,11 @@
 # Launch Jupyter on cluster
 
-**1. Log in to cluster.**
+**1. Log in to cluster**
 
 `ssh username@cluster_ip` \
 `ssh Marina.Pak@10.30.194.110`
 
-**2. Run Jupyter.**
+**2. Run Jupyter**
 
 ```bash
 export PATH=/opt/anaconda3/bin/:$PATH # export path not to write full path to jupyter
@@ -16,7 +16,7 @@ Since there is no browser on cluster we set `--no-browser`. Jupyter will be laun
 
 <img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/port.png'>
 
-**3. Redirect the port to your browser.**
+**3. Redirect the port to your browser**
 
 Open the terminal/command line on your computer (not cluster!) and run the following command:
 
@@ -34,7 +34,7 @@ ssh -L localhost:8888:localhost:8891 Marina.Pak@10.30.194.110
 
 If you are asked "Are you sure you want to continue connecting (yes/no)?" type yes and press Enter. Then enter your cluster password.
 
-**4. Open localhost:YYYY in your browser.**
+**4. Open localhost:YYYY in your browser**
 
 You will be asked for a token. Copy the token from terminal and paste into the browser field. Jupyter Notebook on cluster will be launched in your browser.
 
@@ -42,6 +42,8 @@ You will be asked for a token. Copy the token from terminal and paste into the b
 <img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/token.png'>
 
 Now we can work on cluster in Jupyter!
+
+**Important:** don't close the terminal window on your local machine where you launched the command from Section 3. If you close it, the conection with cluster will be lost.
 
 Nice thing about Jupyter lab is that you can Download and Upload the files from and to cluster through the GUI in the browser:
 
