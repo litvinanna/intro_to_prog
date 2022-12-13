@@ -1,3 +1,5 @@
+# Launch Jupyter on cluster
+
 **1. Log in to cluster.**
 
 `ssh username@cluster_ip` \
