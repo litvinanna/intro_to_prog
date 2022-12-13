@@ -11,7 +11,7 @@
 
 Since there is no browser on cluster we set `--no-browser`. Jupyter will be launched in a free port: 
 
-<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/1.png'>
+<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/port.png'>
 
 **3. Redirect the port to your browser.**
 
@@ -31,8 +31,8 @@ If you are asked "Are you sure you want to continue connecting (yes/no)?" type y
 
 You will be asked for a token. Copy the token from terminal and paste into the browser field. Jupyter Notebook on cluster will be launched in your browser.
 
-<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/3.png' width='400px'>
-<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/4.png'>
+<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/paste_token.png' width='400px'>
+<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/token.png'>
 
 <hr>
 
