@@ -7,7 +7,7 @@
 
 **2. Run Jupyter.**
 
-`jupyter notebook --no-browser`
+`jupyter lab --no-browser`
 
 Since there is no browser on cluster we set `--no-browser`. Jupyter will be launched in a free port: 
 
