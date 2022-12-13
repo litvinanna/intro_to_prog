@@ -47,7 +47,7 @@ Now we can work on cluster in Jupyter!
 
 Nice thing about Jupyter lab is that you can Download and Upload the files from and to cluster through the GUI in the browser:
 
-<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/upload_download.png' width='400px'>
+<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/upload_download.png' width='500px'>
 
 <hr>
 
