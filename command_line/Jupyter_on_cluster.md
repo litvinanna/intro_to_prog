@@ -42,7 +42,7 @@ You will be asked for a token. Copy the token from terminal and paste into the b
 
 Now we can work on cluster in Jupyter!
 
-Nice thing about Jupyter lab is that you can Download and Upload the files from anf to cluster through the GUI in the browser:
+Nice thing about Jupyter lab is that you can Download and Upload the files from and to cluster through the GUI in the browser:
 
 <img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/upload_download.png'>
 
