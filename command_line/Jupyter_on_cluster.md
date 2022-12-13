@@ -7,8 +7,6 @@
 
 **2. Run Jupyter.**
 
-Add the path 
-
 ```bash
 export PATH=/opt/anaconda3/bin/:$PATH # export path not to write full path to jupyter
 jupyter lab --no-browser
