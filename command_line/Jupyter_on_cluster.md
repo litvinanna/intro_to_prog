@@ -14,7 +14,7 @@ jupyter lab --no-browser
 
 Since there is no browser on cluster we set `--no-browser`. Jupyter will be launched in a free port. In my case it's 8891: 
 
-<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/port.png' width='400px'>
+<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/port.png' width='600px'>
 
 **3. Redirect the port to your browser**
 
@@ -38,8 +38,8 @@ If you are asked "Are you sure you want to continue connecting (yes/no)?" type y
 
 Open localhost:YYYY in your browser (In my case it's localhost:8888). You will be asked for a token. Copy the token from terminal and paste into the browser field. Jupyter Notebook on cluster will be launched in your browser.
 
-<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/paste_token.png' width='400px'>
-<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/token.png' width='400px'>
+<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/paste_token.png' width='600px'>
+<img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/token.png' width='600px'>
 
 Now we can work on cluster in Jupyter!
 
