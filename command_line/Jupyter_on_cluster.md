@@ -5,9 +5,9 @@
 
 **2. Run Jupyter.**
 
-`jupyter notebook --no-browser --port=9999`
+`jupyter notebook --no-browser`
 
-Since there is no browser on cluster we set `--no-browser`. In the `--port` you may specify any number XXXX. By default it is 8888 (when you launch Jupyter on your computer, it starts in the browser window with the adress localhost:8888). If the port is occupied (someone else launched his Jupyter in this port) you will be assigned another port: 
+Since there is no browser on cluster we set `--no-browser`. Jupyter will be launched in a free port: 
 
 <img src='https://github.com/litvinanna/intro_to_prog/raw/main/command_line/1.png'>
 
@@ -15,9 +15,9 @@ Since there is no browser on cluster we set `--no-browser`. In the `--port` you 
 
 Open the terminal/command line on your computer (not cluster!) and run the following command:
 
-`ssh -L localhost:[port for your browser]:localhost:[port you requested on cluster] username@10.30.194.138`
+`ssh -L localhost:[port for your browser]:localhost:[port on cluster] username@10.30.194.138`
 
-`-L` stands for local. If you don't have any opened session of Jupyter, you may use port 8888 for convenience. If it is occupied, use any other YYYY. 
+`-L` stands for local. If you don't have any opened session of Jupyter, you may use port 8888 for convenience. If it is occupied, use any other YYYY. To check if the port on your local machine is free,  run `localhost:YYYY` in browser. If it says "This site can’t be reached", the port is free.
 
 Example:
 
@@ -34,9 +34,7 @@ You will be asked for a token. Copy the token from terminal and paste into the b
 
 <hr>
 
-To see the list of launched notebooks:
-
-`jupyter notebook list`
+To see the list of your launched notebooks, run `jupyter notebook list`.
 
 To shut the notebook use Ctrl + C or the command `jupyter notebook stop <port number>`
 
@@ -46,4 +44,4 @@ You may launch Jupyter in the screen to be able to leave the session in the term
 
 `screen -S jp`
 
-To leave the screen and get back to the main session press `Ctrl + A` and the `D`. To see the list of your screens use `screen -ls`. To enter the screen type `screen -r jp`.
+To leave the screen and get back to the main session press `Ctrl + A` and then `D`. To see the list of your screens use `screen -ls`. To enter the screen type `screen -r jp`.
