@@ -29,9 +29,8 @@ Git is a tool that enables programmatic interaction with GitHub. It allows users
 2. Scroll to the bottom of the page and find the **Miniconda** section (right column).  
 3. Download the installer for your operating system.
 
-<span style="color:red">**Important for Windows users:**</span>.  
-When installing Miniconda, **do not install it into a folder that contains spaces or Cyrillic characters** in its path.
-Bad examples: `C:\Program Files (x86)\miniconda3`, `C:\Users\Киса\miniconda3`. Good example: `C:\Programs\miniconda3`. 
+> [!CAUTION]
+> Important note for Windows users: when installing Miniconda, **do not install it into a folder that contains spaces or Cyrillic characters** in its path. Bad examples: `C:\Program Files (x86)\miniconda3`, `C:\Users\Киса\miniconda3`. Good example: `C:\Programs\miniconda3`. 
 
 If your Windows username contains Cyrillic letters, create a new folder (for example, `C:\Programs`) and install Miniconda there.
 
