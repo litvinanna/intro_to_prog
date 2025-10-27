@@ -1,7 +1,7 @@
 # Install the Programs Required for the Course
 
-Before you start programming in Python, you need to install a few tools that will let you write, run, and share code easily.  
-Follow the steps below carefully — everything will work the same on any computer if you do.
+Before you start programming in Python, you need to install a few tools that will let you write and run code easily.  
+Follow the steps below carefully.
 
 ---
 
@@ -30,9 +30,9 @@ Git is a tool that enables programmatic interaction with GitHub. It allows users
 3. Download the installer for your operating system.
 
 > [!CAUTION]
-> Important note for Windows users: when installing Miniconda, **do not install it into a folder that contains spaces or Cyrillic characters** in its path. Bad examples: `C:\Program Files (x86)\miniconda3`, `C:\Users\Киса\miniconda3`. Good example: `C:\Programs\miniconda3`. 
+> Important note for Windows users: when installing Miniconda, **do not install it into a folder that contains spaces or Cyrillic characters** in its path. Bad examples: `C:\Program Files (x86)\miniconda3`, `C:\Users\Киса\miniconda3`. Good example: `C:\programs\miniconda3`, `C:\ProgramData\miniconda3`. 
 
-If your Windows username contains Cyrillic letters, create a new folder (for example, `C:\Programs`) and install Miniconda there.
+If your Windows username contains Cyrillic letters, create a new folder (for example, `C:\programs`) and install Miniconda there.
 
 ---
 
@@ -80,4 +80,17 @@ jupyter lab
 
 Your web browser will open JupyterLab. This is where you’ll write and run your Python code during the course.
 
-**Do not close conda promt terminal** while working in JupyterLab.
+**Do not close conda promt terminal** while working in JupyterLab. When you want to quit JupyterLab, close the terminal window and browser tab.
+
+In *Settings* enable *Autoclose brackets*, it will ease coding.
+
+<img src='https://raw.githubusercontent.com/litvinanna/intro_to_prog/refs/heads/main/img/jp_autoclose.jpg'>
+
+## How to run JupyterLab next time
+
+Next time you need to run JupyterLab, activate course environment and launch Jupyter by the commands below in Anaconda prompt (Windows) or Terminal (MacOS, Linux):
+
+```
+conda activate itp
+jupyter lab
+```
