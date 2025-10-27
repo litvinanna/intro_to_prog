@@ -54,6 +54,10 @@ This will:
 - Create an environment named *itp*
 - Install Python version 3.10, pip (another python packages manager), and JupyterLab (environment for interactive Python coding)
 
+> [!NOTE]
+> If conda asks you to accept terms of the channels, do so by copying the commands it suggests by *Ctrl + Insert* and paste by clicking right mouse button.
+> <img src='https://raw.githubusercontent.com/litvinanna/intro_to_prog/refs/heads/main/img/conda_terms.jpg'>
+
 When installation finishes, activate your environment:
 
 ```
@@ -76,4 +80,4 @@ jupyter lab
 
 Your web browser will open JupyterLab. This is where you’ll write and run your Python code during the course.
 
-When you’re done coding, you can close JupyterLab by pressing Ctrl+C in the terminal and confirming with y or just closing the terminal window.
+**Do not close conda promt terminal** while working in JupyterLab.
