@@ -1,0 +1,69 @@
+id	name	color	weight	aged	veterinary passport	sex	notes
+cat_001	Anfisa	tabby	5.31	2.0	True	female	2.0
+cat_002	Seva	black	6.17	4.0	False	male	
+cat_003	Musya	gray	6.35	7.0	True	female	4.0
+cat_004	Barsik	black		3.0	True	male	
+cat_005	Ryzhik	orange	6.5	7.0	True	male	3.0
+cat_006	Ryzhik	orange	7.5		True	male	2.0
+cat_007	Alisa	calico	3.7	17.0	True	female	2.0
+cat_008	Laska	gray	6.02	4.0	True	female	
+cat_009	Anfisa	black	3.17	15.0	True	female	
+cat_010	Sima	white	5.04	9.0	False	female	
+cat_011	Sima	orange	7.55	2.0	True	female	
+cat_012	Pushok	white		5.0	False	male	1.0
+cat_013	Ryzhik	orange	7.24		True	male	2.0
+cat_014	Masya	calico	6.91	13.0	True	female	2.0
+cat_015	Vasiliy	black	5.47	6.0	False	male	2.0
+cat_016	Pukh	orange	3.55	12.0	True	male	3.0
+cat_017	Boris	black	6.96		True	male	
+cat_018	Ryzhik	orange		10.0	False	male	
+cat_019	Murka	black	3.54	4.0	False	female	3.0
+cat_020	Sima	orange		11.0	False	female	1.0
+cat_021	Pushok	orange	2.51	7.0	False	male	1.0
+cat_022	Musya	gray	6.1	8.0	False	female	
+cat_023	Sima	calico	4.97	17.0	False	female	5.0
+cat_024	Sima	calico	3.58	8.0	False	female	
+cat_025	Styopa	white	6.21	11.0	False	male	
+cat_026	Sara	gray	4.96	2.0	False	female	2.0
+cat_027	Gosha	gray	4.89		True	male	1.0
+cat_028	Luna	white	3.03	15.0	True	female	
+cat_029	Snezhok	white	2.28	10.0	True	male	4.0
+cat_030	Alisa	gray	6.88	4.0	True	female	
+cat_031	Anfisa	gray			True	female	1.0
+cat_032	Sergei	white	5.63	10.0	True	male	1.0
+cat_033	Sima	black	2.4	2.0	False	female	
+cat_034	Luna	white	4.17		True	female	2.0
+cat_035	Murka	calico	4.36	15.0	False	female	2.0
+cat_036	Serzh	white	7.75	4.0	True	male	3.0
+cat_037	Pushok	orange	7.08		False	male	2.0
+cat_038	Musya	tabby		11.0	False	female	2.0
+cat_039	Sima	calico	3.48		True	female	1.0
+cat_040	Luna	calico	3.98	7.0	True	female	
+cat_041	Musya	white	7.85	10.0	True	female	1.0
+cat_042	Masha	tabby	6.53	7.0	False	female	5.0
+cat_043	Musya	calico	6.63	11.0	True	female	4.0
+cat_044	Belyash	white	6.47	8.0	False	male	5.0
+cat_045	Masya	gray	3.29	10.0	False	female	2.0
+cat_046	Sima	calico	5.48	16.0	True	female	
+cat_047	Pushok	gray	4.0	3.0	True	male	1.0
+cat_048	Pukh	white		1.0	False	male	5.0
+cat_049	Musya	white	3.92	5.0	False	female	
+cat_050	Pushok	gray	4.9	4.0	True	male	5.0
+cat_051	Sima	orange	3.24		False	female	2.0
+cat_052	Nochka	black		4.0	True	female	4.0
+cat_053	Anfisa	gray		7.0	False	female	
+cat_054	Sergei	orange		9.0	False	male	1.0
+cat_055	Pushok	gray	7.19	15.0	False	male	2.0
+cat_056	Sima	calico	2.04		False	female	2.0
+cat_057	Anfisa	gray	5.26	3.0	False	female	3.0
+cat_058	Barsik	gray	6.23	15.0	False	male	2.0
+cat_059	Masya	white	5.72	1.0	True	female	4.0
+cat_060	Snezhok	white	3.49	3.0	True	male	
+cat_061	Murka	black		12.0	True	female	
+cat_062	Pukh	orange	4.35	14.0	False	male	2.0
+cat_063	Pushok	white	5.11	4.0	True	male	1.0
+cat_064	Anfisa	black	6.64	11.0	False	female	1.0
+cat_065	Sonya	tabby	2.89	2.0	False	female	4.0
+cat_066	Luna	tabby	3.68	10.0	False	female	1.0
+cat_067	Sergei	gray	6.3	1.0	True	male	1.0
+cat_068	Belchik	white	5.41		False	male	2.0
